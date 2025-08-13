@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'ModernDos';
+  src: url("/Homepage/src/fonts/ModernDOS8x16.ttf");
+}
+
 html {
   background-color: #f1f5f9;
-  font-family: sans-serif;
+  font-family: 'ModernDos';
 }
 
 body {

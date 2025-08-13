@@ -1,0 +1,36 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro'
+const {pageTitle} = Astro.props
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+        <title>{pageTitle}</title>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<!-- Renders the header using the component -->
+		<Header />
+
+		<!-- Text content of the page -->
+		<h1>{pageTitle}</h1>
+		<p>This is a test for testing</p>
+
+        <!-- Allows for slotting in additional content between component tags -->
+        <slot/>
+
+		<!-- Renders the footer using the component -->
+		<Footer />
+
+		<!-- Imports the script that handles the mobile hamburger menu-->
+		<script>
+		import "../scripts/menu.js"
+  		</script>
+	</body>
+</html>
