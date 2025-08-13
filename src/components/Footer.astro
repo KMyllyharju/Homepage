@@ -1,0 +1,20 @@
+---
+import Social from './Social.astro'
+---
+
+<!-- Local styling for the footer -->
+ 
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<!-- Displays the footer elements using the Social component -->
+<footer>
+  <Social platform="twitter" username="astrodotbuild" />
+  <Social platform="github" username="kmyllyharju" />
+  <Social platform="youtube" username="astrodotbuild" />
+</footer>
