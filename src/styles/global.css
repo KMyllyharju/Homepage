@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'ModernDos';
-  src: url("/Homepage/src/fonts/ModernDOS8x16.ttf");
+  src: url("../fonts/ModernDOS8x16.ttf");
 }
 
 html {
