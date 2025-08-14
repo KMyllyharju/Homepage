@@ -1,10 +1,37 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// The tag this page will display
+const tagName = 'RPG';
+
+// Load all posts in /src/pages/posts
+const allPosts = Object.values(
+  import.meta.glob('./posts/*.md', { eager: true })
+);
+
+// Filter for posts containing the tag
+const posts = allPosts.filter((post: any) =>
+  post.frontmatter.tags?.includes(tagName)
+);
+
 const pageTitle = "RPGs"
-const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<p>This page is all about Tabletop RPGs</p>
-    {allPosts.map((post: any) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+  <!-- This is the core text content of the page -->
+  <div class="text">
+    <p>I am the sort of person who maintains an enormous variety of hobbies, but playing tabletop roleplaying games (which in my opinion should simply be called roleplaying games, as they precede the advent of digital roleplaying games!) is without a doubt my favourite hobby.</p>
+    <p>For the uninitiated even though RPG's are most commonly associated with Dungeons and Dragons (to the extent of being nearly synonymous in the minds of some), the term includes but is not limited to D&D.</p>
+    <p>I am currently playing <a href="https://freeleaguepublishing.com/games/twilight-2000/">Twilight 2000 (4th edition)</a> [As a GM], <a href="https://www.delta-green.com/">Delta Green</a> [as a GM] & <a href="https://www.atlas-games.com/arsmagica">Ars Magica (5th edition)</a> [as a player].</p>
+    <p>Below you can find an assortment of posts I have made related to RPG's.</p>
+
+  <!-- This creates a list of all posts with the design tag -->
+</br>
+  <h2>Posts about RPG's</h2>
+  <ul>
+    {posts.map((post: any) => (
+      <li><a href={post.url}>{post.frontmatter.title}</a></li>
+    ))}
+  </ul>
+  </div>
 </BaseLayout>

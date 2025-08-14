@@ -4,9 +4,9 @@
 /* Generally used variables for ease of use */
 
 :root{
-  --max-width: 70ch;
-  --font-main: 'Jersey 15';
-  --font-secondary: 'Workbench';
+  --max-width: 90ch;
+  --font-main: 'Jersey 15', sans-serif;
+  --font-secondary: 'Workbench', sans-serif;
   --font-scale: 1rem;
   --padding: 1rem;
   --background-color: #000000;
@@ -14,28 +14,6 @@
   --text-color: #FFFFFF;
   --link-color: rgba(45,255,196,0.9);
   --visited-color: #F5EB59;
-}
-
-/* Styling specific to mobile devices */
-
-@media screen and (min-width: 636px) {
-  .nav-links {
-    margin-left: 5em;
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
-  }
-
-  .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
-  }
-
-    .hamburger {
-    display: none;
-  }
-
 }
 
 /* Sets the bg color for the whole website */
@@ -136,7 +114,7 @@ h6{
   text-align: center;
   padding: 10px 0;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -148,4 +126,35 @@ h6{
 
 .expanded {
   display: unset;
+}
+
+.text a {
+  color: #2dffc4;
+}
+
+.text a:hover,
+.text a:focus {
+  text-shadow: 0 0 3px #FFFFFF, 0 0 6px #2dffc4;
+}
+
+/* Styling specific to mobile devices. Needs to be at the bottom */
+
+@media screen and (min-width: 636px) {
+  .nav-links {
+    margin-left: 5em;
+    display: block;
+    position: static;
+    width: auto;
+    background: none;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+
+    .hamburger {
+    display: none;
+  }
+
 }
