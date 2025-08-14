@@ -12,6 +12,7 @@
   --background-color: #000000;
   --heading-color: #2dffc4;
   --text-color: #FFFFFF;
+  --highlight-color: #F5EB59;
   --link-color: rgba(45,255,196,0.9);
   --visited-color: #F5EB59;
 }
@@ -82,6 +83,15 @@ h6{
   margin: 1rem 0;
   font-size: 1rem;
   color: var(--heading-color)
+}
+
+hr{
+  width: 80%;
+  color: var(--heading-color);
+}
+
+strong{
+  color: var(--highlight-color)
 }
 
 

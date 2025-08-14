@@ -2,7 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 // The tag this page will display
-const tagName = 'design';
+const tagName = 'Design';
+
+const pageTitle = "Design";
 
 // Load all posts in /src/pages/posts
 const allPosts = Object.values(
@@ -10,11 +12,15 @@ const allPosts = Object.values(
 );
 
 // Filter for posts containing the tag
-const posts = allPosts.filter((post: any) =>
+let posts = allPosts.filter((post: any) =>
   post.frontmatter.tags?.includes(tagName)
 );
 
-const pageTitle = "Design"
+// Sort by pubDate (newest first)
+posts.sort((a: any, b: any) => {
+  return new Date(b.frontmatter.pubDate).getTime() -
+         new Date(a.frontmatter.pubDate).getTime();
+});
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -22,15 +28,17 @@ const pageTitle = "Design"
   <div class="text">
   <p>I consider myself a true jack of all trades creatively, but I have focused on some avenues moreso than others.</p>
   <p>I have dabbled in semi-professional graphic design and illustration on the 2D side, and on the 3D side of things I have focused on designing functional prints for 3D printing.</p>
-  <p>As far as design influences go, I find myself being inspired by the future of the past. Star Trek, Alien, Blade Runner are all major inspirations to me.</p>
+  <p>As far as design influences go, I find myself being inspired by the future of the past. Star Trek, Alien, Blade Runner are all major inspirations to me. I designed this website, so I would hope it provides a good idea of the kind of design I enjoy.</p>
   <p>This page serves as a digital portfolio of my design work. Most of them are just things I have made for my own creative fulfilment.</p>
   
   <!-- This creates a list of all posts with the design tag -->
   </br>
-  <p>Posts tagged with {tagName}</p>
+  <h2>Posts about design</h2>
   <ul>
     {posts.map((post: any) => (
-      <li><a href={post.url}>{post.frontmatter.title}</a></li>
+      <li><a href={post.url}>{post.frontmatter.title}</a>
+      <span> — {post.frontmatter.pubDate.toString().slice(0,10)}</span></li>
+      <p>{post.frontmatter.description}</p>
     ))}
   </ul>
   </div>
