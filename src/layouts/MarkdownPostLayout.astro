@@ -11,17 +11,31 @@ const { frontmatter } = Astro.props;
   <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
 
   <div class="tags">
+    <p>Tags:</p>
     {frontmatter.tags.map((tag: string) => (
       <p class="tag"><a href={`/Homepage/tags/${tag}`}>{tag}</a></p>
     ))}
   </div>
+  <div class="markdown">
+    <slot />
+  </div>
+    
 
-  <slot />
+
 </BaseLayout>
-<style>
-  a {
-    color: #00539F;
-  }
+
+<!-- Local styling of markdown posts -->
+<style is:global>
+
+/* Link (unvisited) */
+.markdown a {
+  color: #2dffc4;
+}
+
+.markdown a:hover,
+.markdown a:focus {
+  text-shadow: 0 0 3px #FFFFFF, 0 0 6px #2dffc4;
+}
 
   .tags {
     display: flex;
@@ -29,11 +43,17 @@ const { frontmatter } = Astro.props;
   }
 
   .tag {
-    margin: 0.25em;
-    border: dotted 1px #a1a1a1;
-    border-radius: .5em;
-    padding: .5em 1em;
-    font-size: 1.15em;
-    background-color: #F8FCFD;
+    margin-left: 0.5em;
+    font-size: 1rem;
+
+  }
+
+  .tag a{
+    color: #2dffc4;
+  }
+
+  .tag a:hover,
+  .tag a:focus{
+    text-shadow: 0 0 3px #FFFFFF, 0 0 6px #2dffc4;
   }
 </style>
