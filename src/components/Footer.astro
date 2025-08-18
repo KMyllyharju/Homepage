@@ -1,7 +1,7 @@
 ---
-import bsky from '../assets/icons/bsky.png';
-import gh from '../assets/icons/github-mark-white.png';
-import li from '../assets/icons/InBug-White.png';
+import bsky from '../../icons/bsky.png';
+import gh from '../../icons/github-mark-white.png';
+import li from '../../icons/InBug-White.png';
 ---
 
 <!-- Local styling for the footer -->
@@ -17,12 +17,12 @@ import li from '../assets/icons/InBug-White.png';
 <!-- Displays the footer elements using the Social component -->
 <footer>
   <a href="https://bsky.app/profile/kmyllyharju.bsky.social">
-    <img src={bsky} style="width:45px;height:40px;" />
+    <img src={bsky.src} style="width:45px;height:40px;" />
   </a>
   <a href="https://github.com/kmyllyharju">
-    <img src={gh} style="width:40px;height:40px;" />
+    <img src={gh.src} style="width:40px;height:40px;" />
   </a>
   <a href="https://www.linkedin.com/in/katriina-myllyharju/">
-    <img src={li} style="width:40px;height:40px;" />
+    <img src={li.src} style="width:40px;height:40px;" />
   </a>
 </footer>
