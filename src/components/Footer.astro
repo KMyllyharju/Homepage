@@ -1,7 +1,5 @@
 ---
-import bsky from 'bsky.png';
-import gh from 'github-mark-white.png';
-import li from 'InBug-White.png';
+import { Image } from 'astro:assets';
 ---
 
 <!-- Local styling for the footer -->
@@ -17,12 +15,12 @@ import li from 'InBug-White.png';
 <!-- Displays the footer elements using the Social component -->
 <footer>
   <a href="https://bsky.app/profile/kmyllyharju.bsky.social">
-    <img src={bsky.src} style="width:45px;height:40px;" />
+    <img src="/Homepage/icons/bsky.png" style="width:45px;height:40px;" />
   </a>
   <a href="https://github.com/kmyllyharju">
-    <img src={gh.src} style="width:40px;height:40px;" />
+    <img src="/icons/bsky.png" style="width:40px;height:40px;" />
   </a>
   <a href="https://www.linkedin.com/in/katriina-myllyharju/">
-    <img src={li.src} style="width:40px;height:40px;" />
+    <img src="icons/bsky.png" style="width:40px;height:40px;" />
   </a>
 </footer>
