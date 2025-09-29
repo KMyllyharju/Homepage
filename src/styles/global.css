@@ -15,6 +15,7 @@
   --highlight-color: #F5EB59;
   --link-color: rgba(45,255,196,0.9);
   --visited-color: #F5EB59;
+  --tertiary-color: #FA0000;
 }
 
 /* Sets the bg color for the whole website */
@@ -92,6 +93,10 @@ hr{
 
 strong{
   color: var(--highlight-color)
+}
+
+blockquote{
+  color: var(--tertiary-color)
 }
 
 
