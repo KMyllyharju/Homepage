@@ -10,7 +10,7 @@ image:
     alt: 'Rendered display image of a dice holder for RPG dice with a Kumiko pattern'
 ---
 
-Available on [Printables.com](https://www.printables.com/model/1419196-kumiko-rpg-dice-holder-parametric) if you want to print your own.
+**Available on [Printables.com](https://www.printables.com/model/1419196-kumiko-rpg-dice-holder-parametric) if you want to print your own.**
 
 A parametric RPG dice holder for 1d4, 1d6, 1d8, 2d10, 1d12 & 1d20, decorated with a stylish Japanese kumiko pattern.
 
