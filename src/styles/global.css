@@ -99,6 +99,10 @@ blockquote{
   color: var(--tertiary-color)
 }
 
+img{
+  max-width: 100ch;
+}
+
 
 /* Styling of navigation links */
 
