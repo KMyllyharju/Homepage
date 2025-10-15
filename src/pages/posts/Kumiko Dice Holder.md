@@ -4,7 +4,7 @@ title: 'Kumiko RPG Dice Holder'
 pubDate: 2025-10-15
 description: 'A stylish holder for your RPG dice'
 author: 'Katriina Myllyharju'
-tags: ["Design", "3d-printing", "CAD", "Product design"]
+tags: ["Design", "3d-printing", "CAD", "Product design", "Autodesk Fusion"]
 image:
     url: 'https://media.printables.com/media/prints/82eb7505-58de-4e60-b337-2c383a0f003f/images/10872560_c1d5f70e-d21f-493c-abb2-33b7298bc920_60912808-6c92-4b47-b8f3-853fea033c37/thumbs/inside/1280x960/png/basic-kdh-edited-render.webp'
     alt: 'Rendered display image of a dice holder for RPG dice with a Kumiko pattern'
