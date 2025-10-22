@@ -12,8 +12,8 @@ image:
 
 I was in charge of designing the majority of the promotional materials used both online and in print for the Laurea International Week in 2024.
 As the theme of the week was "Designing sustainable futures" I was inspired by the sustainable and multicultural utopian visions of the future such as the world of Star Trek and in particular some of the design elements seen in The Next Generation and in Deep Space 9.
-<br>
-<br>
+
+
 For the event I created a design for A3 size posters to be displayed on campus, that includes a QR code that linked to our program schedule.
 <img src="/Homepage/LaureaIW/IW 2024 poster.png">
 As well as a banner for use on web pages

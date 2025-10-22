@@ -11,8 +11,8 @@ image:
 ---
 
 This is an assorted collection of illustrations that I have done over the years.
-<br>
-<br>
+
+
 A quick illustration of a ballet dancer made for a portfolio — 2023
 <img src="/Homepage/Illustration/Dancer illustration.jpeg">
 A collection of maps of the same fictional geographic area depicted in different eras several hundred years apart. Created for a D&D 5e campaign that never came to fruition. — 2022 or 2023
