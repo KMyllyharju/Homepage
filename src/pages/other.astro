@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// The tag this page will display
+const tagName = 'Other';
+
+const pageTitle = "Other";
+
+// Load all posts in /src/pages/posts
+const allPosts = Object.values(
+  import.meta.glob('./posts/*.md', { eager: true })
+);
+
+// Filter for posts containing the tag
+let posts = allPosts.filter((post: any) =>
+  post.frontmatter.tags?.includes(tagName)
+);
+
+// Sort by pubDate (newest first)
+posts.sort((a: any, b: any) => {
+  return new Date(b.frontmatter.pubDate).getTime() -
+         new Date(a.frontmatter.pubDate).getTime();
+});
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <!-- This is the core text content of the page -->
+  <div class="text">
+    <p>Here is the pit where I throw all the stuff I do that does not fit into the other main categories on this page.</p>
+    <p>Do not scream into the pit, for the pit may scream back.</p>
+
+  <!-- This creates a list of all posts with the other tag -->
+</br>
+  <ul>
+    {posts.map((post: any) => (
+      <li><a href={post.url}>{post.frontmatter.title}</a>
+      <span> — {post.frontmatter.pubDate.toString().slice(0,10)}</span></li>
+      <p>{post.frontmatter.description}</p>
+    ))}
+  </ul>
+  </div>
+</BaseLayout>

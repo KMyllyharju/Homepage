@@ -4,7 +4,7 @@ title: 'Making japanese style sumi ink sticks'
 pubDate: 2025-10-28
 description: 'How to make your own sumi ink sticks'
 author: 'Katriina Myllyharju'
-tags: ["Design", "Calligraphy", "Handicrafts", "Other"]
+tags: ["Calligraphy", "Handicrafts", "Other"]
 image:
     url: 'https://cdn.pixabay.com/photo/2016/08/15/13/04/sumi-1595365_960_720.jpg'
     alt: 'A sumi-e painting'
