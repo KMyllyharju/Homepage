@@ -24,6 +24,8 @@ I hope you enjoy it as much as I do.
 
 Serously, when I came up with this recipe, I spent like a solid 3 weeks straight making a new one right after I finished the previous cake because it's just that delicious.
 
+I find that adding just a bit of brandy just fleshes out the flavour and makes it more sophisticated and complex. I prefer a brandy with raisiny notes, as I think they fit well with the other flavours, but make a choice based on your personal preference.
+
 This recipe was adapted from [Just One Cookbook - Souffle japanese cheesecake](https://www.onceuponachef.com/recipes/new-york-style-cheesecake.html#tabrecipe) and [Once Upon a Chef - New York Style Cheesecake](https://www.justonecookbook.com/souffle-japanese-cheesecake/#recipe)
 
 ## Actual recipe
