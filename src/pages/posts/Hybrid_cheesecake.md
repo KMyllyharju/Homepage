@@ -4,7 +4,7 @@ title: 'Hybrid cheesecake'
 pubDate: 2025-12-09
 description: 'My favourite cheesecake recipe'
 author: 'Katriina Myllyharju'
-tags: ["Recipe", "Baking", "Cooking", "Other"]
+tags: ["Recipe", "Baking", "Cooking", "Dessert", "Other"]
 ---
 
 **Cuisine: American Japanese fusion**
