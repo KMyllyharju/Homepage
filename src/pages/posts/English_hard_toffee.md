@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'English hard toffee'
-pubDate: 2025-12-11
+pubDate: 2026-04-30
 description: 'A recipe for old-school english style hard toffee'
 author: 'Katriina Myllyharju'
 tags: ["Recipe", "Cooking", "Dessert", "Other"]
@@ -39,7 +39,7 @@ This recipe was based on [Tasting History - English Toffee](https://www.tastingh
 <h2>Method</h2>
 <ol>
 <li>Prepare an appropriate heatproof dish. Line with parchment paper.</li>
-<li>Stir together the brown sugar and water in the pan, then put the pan over low heat and stir. The sugar should dissolve to make a syrup in about 5 to 8 minutes, and as soon as it starts to steam, add in the butter. Stir to help the butter melt. At this point, you can stir in a bit of vinegar (/cream of tartar) to help prevent crystallization. Once the butter has melted, stop stirring and put a candy thermometer on the pot.</li>
+<li>Stir together the brown sugar and water in the pan, then put the pan over low heat (On my induction stove with heat settings from 1-9, the optimal setting for this is 4) and stir. The sugar should dissolve to make a syrup in about 5 to 8 minutes, and as soon as it starts to steam, add in the butter. Stir to help the butter melt. At this point, you can stir in a bit of vinegar (/cream of tartar) to help prevent crystallization. Once the butter has melted, stop stirring and put a candy thermometer on the pot.</li>
 <li>Keep the heat low while the candy heats. Once it hits around 105°C, it will slow or even stop rising in temperature, but keep it on low heat, and it will start to rise again. This can take about 30 minutes. You want the temperature to reach 150°C, or the hard crack stage.</li>
 <li>Take the pot off the heat and stir in the vinegar and heavy cream. Incorporate the heavy cream gradually as the toffee may solidify as you pour it in. Then pour the toffee into the prepared pan. Let the toffee cool and set up, about 10 mins.</li>
 <li>When the toffee has set up, take it out of the pan and break it up into pieces by lightly hitting it with a hammer or other object, then serve it forth.</li>
