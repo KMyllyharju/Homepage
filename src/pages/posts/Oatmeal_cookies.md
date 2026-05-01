@@ -15,6 +15,10 @@ tags: ["Recipe", "Cooking", "Dessert", "Other"]
 
 Adapted from [Saveur - Oatmeal lace cookies]([https://www.budget101.com/recipes/4521-mcdonalds-sweet-and-sour-sauce-recipe/](https://www.saveur.com/article/Recipes/OATMEAL-LACE-COOKIES/))
 
+### Notes
+
+**Makes approximately 40 large cookies**
+
 ## Actual recipe
 
 <h2>Ingredients</h2>
