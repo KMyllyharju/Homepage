@@ -21,7 +21,7 @@ For optimal results, allow dough to cold ferment for 2 days, but **at minimum** 
 
 ## Actual recipe
 
-Makes 3 pizza pies.
+Makes 3 pizza pies
 
 ## Ingredients
 
