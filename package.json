@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.4.1"
+    "astro": "^7.4.1",
+    "node": "^26.12.0"
   }
 }
