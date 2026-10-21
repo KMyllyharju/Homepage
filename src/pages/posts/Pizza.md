@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Convection oven pizza'
-pubDate: 2026-05-01
+pubDate: 2026-10-21
 description: 'Fantastic crispy pizza in just a regular convection oven'
 author: 'Katriina Myllyharju'
 tags: ["Recipe", "Cooking", "Baking", "Other"]
@@ -17,7 +17,7 @@ Adapted from the recipe of [@ajeatworld on instagram](https://www.instagram.com/
 
 For optimal results, allow dough to cold ferment for 2 days, but **at minimum** allow the dough to sit in the fridge overnight.
 
-YOU NEED TO USE PIZZA FLOUR. I tested the recipe with regular wheat flour, it just does not work the same. You need pizza flour to get a crispy bottom and a thin base.
+**You need to use pizza flour.** I tested the recipe with regular wheat flour, it just does not work the same. You need pizza flour to get a crispy bottom and a thin base.
 
 ## Actual recipe
 
